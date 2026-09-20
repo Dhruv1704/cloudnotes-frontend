@@ -131,10 +131,6 @@ cloudnotes-frontend/
 
 Create a `.env` file in the root directory of the frontend project:
 
-```env
-REACT_APP_HOST=https://cloudnotes-backend.vercel.app
-```
-
 | Variable | Required | Description | Example |
 |---|---|---|---|
 | `REACT_APP_HOST` | **Yes** | Base URL pointing to the running backend API service | `http://localhost:5000` (local) or `https://your-backend.com` (production) |
